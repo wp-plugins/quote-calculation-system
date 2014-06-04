@@ -31,16 +31,15 @@ Then create page and use <strong>[quote-system-processing]</strong> for quote ca
 
 
 == Screenshots ==
-
-screenshot-1 manage vehicle.png
-screenshot-2 add vehicle.png
-screenshot-3 manage location.png
-screenshot-4 add location.png
-screenshot-5 manage location rate.png
-screenshot-6 add location rate.png
-screenshot-7 extra setting.png
-screenshot-8 front end form.png
-screenshot-9 form processing and getting rate from databases.png
+screenshot-1.png
+screenshot-2.png
+screenshot-3.png
+screenshot-4.png
+screenshot-5.png
+screenshot-6.png
+screenshot-7.png
+screenshot-8.png
+screenshot-9.png
 
 == Frequently Asked Questions ==
 * No question initially
