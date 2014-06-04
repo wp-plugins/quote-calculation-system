@@ -31,15 +31,16 @@ Then create page and use <strong>[quote-system-processing]</strong> for quote ca
 
 
 == Screenshots ==
-screenshot-1.png
-screenshot-2.png
-screenshot-3.png
-screenshot-4.png
-screenshot-5.png
-screenshot-6.png
-screenshot-7.png
-screenshot-8.png
-screenshot-9.png
+
+1. Manage vehicle.
+2. Add vehicle.
+3. Manage Location.
+4. Add Location.
+5. Manage Location Rate.
+6. Add Location Rate.
+7. Extra setting tab.
+8. Front End Form.
+9. Form processing and getting rate from databases.
 
 == Frequently Asked Questions ==
 * No question initially
