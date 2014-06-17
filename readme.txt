@@ -1,25 +1,28 @@
 === Quote calculation Sytem ===
 Contributors: bikram_sth
 Donate link: 
-Tags: quote calculation based on location and vehicle saved on database, 
+Tags: quote calculation based on location and vehicle saved on database and hourly based calculation, 
 Requires at least: 3
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Quote calculation system is used basically for quote calculation of the vehicle from one location to other that are saved in database.
+Quote calculation system is used for quote calculation of the vehicle based on location and also hourly based calculation that are saved in database.
 
 == Description ==
 Firstly use <strong>[quote-system]</strong> in post/page, where you want to get form in frontend.
-Then create page and use <strong>[quote-system-processing]</strong> for quote calculation.
-
+Create Quote Processing page and use <strong>[quote-system-processing]</strong> for quote calculation.
+Create Quote Reservation page and use <strong>[quote-system-reservation]</strong> for quote reservation and sending email.
+Add the quote processing and quote reservation in options of the plugins and add others options too.
 
 = Key Feature =
 
 * saving different vehicle in database
 * saving different location in database
 * saving rate for travelling based on the location and vehicle
+* calculate the rate based on hourly calculation
+* add the options to sends emails of the quote and quote processing
 
 
 == Installation ==
@@ -46,6 +49,13 @@ Then create page and use <strong>[quote-system-processing]</strong> for quote ca
 * No question initially
 
 == Changelog ==
+= 1.1 =
+* jquery ui added for tab options.
+* datepicker added to the form.
+* quote processing added in widget
+* hourly based calculation added in the form 
+* booking detail send to store administration throught email
+
 = 1.0 =
 * Quote calculation system first release
 
