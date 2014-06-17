@@ -1,0 +1,21 @@
+.quote-calculation { width: 100%; margin: auto; }
+.clear {clear: both;}
+.quote-label { float: left; width: 50%; }
+.quote-calculation-form { border: 1px solid; padding: 10px; margin: 20px auto; min-height: 170px;}
+.quote-calculation-form .vechile-image { float: left; width: 20%;}
+.quote-calculation-form .other-details { float: left; width: 80%;}
+.vechile-capacity div { width: 30%; float: left;}
+.travel-type { margin-top: 20px; width: 70%; float: left;}
+.travel-type .ttype { width: 50%; //float: left; display: inline; margin: 20px;}
+.quote_btn { margin-top: 20px; padding: 5px; margin: 5px; background: #E4CF74; border-radius: 5px;}
+.quick-quote .label { padding: 5px; margin: 5px; font-family: sans-serif; border-radius: 5px; padding-top: 5px;}
+.quick-quote select { font-family: sans-serif; //border-radius: 5px; padding-top: 5px; margin: 5px}
+.quick-quote select option { padding: 5px;}
+.people-icon { background: url("../images/manb.png") no-repeat; height: 25px; width: 25px !important;padding: 0 5px;}
+.luggages-icon { background: url("../images/lugb.png") no-repeat; height: 25px; width: 25px !important;padding: 0 5px;}
+.handbag-icon { background: url("../images/bagb.png") no-repeat; height: 25px; width: 25px !important; padding: 0 5px;}
+.ui-datepicker-trigger {background: url("../images/datepicker-icon.png") no-repeat;}
+.ui-datepicker-trigger:FOCUS,
+.ui-datepicker-trigger:HOVER { background: url("../images/datepicker-icon-hover.png") no-repeat;}
+
+form.quote-form label.error, label.error { color: #FF0000; font-style: italic;}
