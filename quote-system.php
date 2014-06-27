@@ -108,7 +108,8 @@ function quote_db_install () {
 	`lauggages` VARCHAR(255) NOT NULL, 
 	`handbag` VARCHAR(255) NOT NULL DEFAULT '0', 
 	`image_url` VARCHAR(255) NOT NULL, 
-	`date_upload` VARCHAR(100) NULL, 
+	`date_upload` VARCHAR(100) NULL,
+	`hourly_rate` VARCHAR(100) NULL, 
 	PRIMARY KEY (`id`)) ENGINE = InnoDB";
 	
 	$sql2 = "CREATE TABLE " . $table_name2 . " (
@@ -126,13 +127,13 @@ function quote_db_install () {
 	PRIMARY KEY (`id`)) ENGINE = InnoDB";
 	
 	//for extra options
-	$sql4 = "ALTER TABLE " . $table_name . " ADD `hourly_rate` VARCHAR( 250 ) NOT NULL" ;
+	//$sql4 = "ALTER TABLE " . $table_name . " ADD `hourly_rate` VARCHAR( 250 ) NOT NULL" ;
 	
      require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 		dbDelta($sql1);
      	dbDelta($sql2);
      	dbDelta($sql3);
-     	dbDelta($sql4);
+     	//dbDelta($sql4);
    }
 }
 
