@@ -127,13 +127,11 @@ function quote_db_install () {
 	PRIMARY KEY (`id`)) ENGINE = InnoDB";
 	
 	//for extra options
-	//$sql4 = "ALTER TABLE " . $table_name . " ADD `hourly_rate` VARCHAR( 250 ) NOT NULL" ;
 	
      require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
 		dbDelta($sql1);
      	dbDelta($sql2);
      	dbDelta($sql3);
-     	//dbDelta($sql4);
    }
 }
 
