@@ -67,11 +67,11 @@ function quote_system_extra_option() {
 		<?php settings_fields( 'quote-settings-group' ); ?>
 		<table class="form-table">
 			<tr valign="top">
-			<th scope="row">Post Url</th>
+			<th scope="row">Quote Processing Url</th>
 				<td><input type="text" name="post-url" id="post-url" class="regular-text" value="<?php echo $post_url?>" /></td>
 			</tr>
 			<tr valign="top">
-			<th scope="row">Reservation Url</th>
+			<th scope="row">Quote Reservation Url</th>
 				<td><input type="text" name="reservation-url" id="reservation-url" class="regular-text" value="<?php echo $reservation_url?>" /></td>
 			</tr>
 			<tr valign="top">
