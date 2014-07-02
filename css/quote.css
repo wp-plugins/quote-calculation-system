@@ -19,3 +19,4 @@
 .ui-datepicker-trigger:HOVER { background: url("../images/datepicker-icon-hover.png") no-repeat;}
 
 form.quote-form label.error, label.error { color: #FF0000; font-style: italic;}
+#quote-form-submit #captcha { border: 0 !important; box-shadow: none !important; background: #d40000; width: 70px; color: #fff;}
