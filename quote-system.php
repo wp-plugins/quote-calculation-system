@@ -3,7 +3,7 @@
 Plugin Name: Quote Calculation System
 Plugin URI: 
 Description: Save location and vehicle, calculate rate based on pickup and drop off location and hourly based. Send detail to email.
-Version: 1.1
+Version: 1.2
 Author: Bikram
 Author URI: http://bikramkaji.com.np/
 License: GPL2
