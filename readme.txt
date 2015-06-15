@@ -3,8 +3,8 @@ Contributors: bikram_sth
 Donate link: 
 Tags: quote calculation based on location and vehicle saved on database and hourly based calculation, payment through paypal for sucessfull quote 
 Requires at least: 3
-Tested up to: 4.0
-Stable tag: 1.2
+Tested up to: 4.2.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,11 @@ With Regards to <a href="http://prowebtechnology.com" target="_blank">Proweb Tec
 * No question initially
 
 == Changelog ==
+= 1.3 =
+* issue while adding database in admin fixed
+* made compalible
+* minor bugs fixed
+
 = 1.2 =
 * paypal options added.
 * minor bugs fixed
